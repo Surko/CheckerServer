@@ -9,5 +9,8 @@
 #include <iostream>
 #include <string>
 
+// Host na koreho sa napajame, mozne zmenit na nacitavanie z txt suboru
+// alebo nacitanie priamo z hry.
 static const char * hostname = "127.0.0.1";
+// Port na ktorom hra bezi
 static const int port = 5000;
